@@ -1,14 +1,22 @@
 {
   "name": "decentralizedchatdapp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thamognya/DecentralizedChatDapp.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Thamognya Kodi <contact@thamognya.com>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Thamognya/DecentralizedChatDapp/issues"
+  },
+  "homepage": "https://github.com/Thamognya/DecentralizedChatDapp#readme",
   "dependencies": {
     "express": "^4.18.1",
     "gun": "^0.2020.1237"
